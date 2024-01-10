@@ -1,0 +1,310 @@
+{
+	"dataset_dir": "/mnt/hdd0/leemiso/FST/231213/z_bare",
+	"csv_path": null,
+	"meta_path": "/mnt/ssd0/leemiso/FST/dataset/meta_03.json",
+	"batch_size": 64,
+	"num_workers": 24,
+	"model_name": "resnet50",
+	"binary": false,
+	"epochs": 50,
+	"lr": 0.0001,
+	"weight_decay": 0.0001,
+	"step_size": 40,
+	"gamma": 0.1,
+	"gpus": [
+		3
+	],
+	"exp_name": "230109_resnet50"
+}
+
+CUDA_VISIBLE_DEVICES: [3]
+
+>> Load the data...
+Train: Counter({0: 175, 1: 18, 2: 15, 3: 10}) (Total 218)
+Val: Counter({0: 88, 1: 9, 2: 7, 3: 5}) (Total 109)
+<< Finished.
+
+>> Load the model...
+Model: resnet50 from scratch
+<< Finished.
+
+>> Train...
+Epoch [01/50]	Batch [01/03]	Train Loss 0.019
+Epoch [01/50]	Batch [02/03]	Train Loss 0.017
+Epoch [01/50]	Batch [03/03]	Train Loss 0.015
+Epoch [01/50]	Val Loss 0.023	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 1
+------------------------------------------------------------------------
+Epoch [02/50]	Batch [01/03]	Train Loss 0.013
+Epoch [02/50]	Batch [02/03]	Train Loss 0.014
+Epoch [02/50]	Batch [03/03]	Train Loss 0.011
+Epoch [02/50]	Val Loss 0.018	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 2
+------------------------------------------------------------------------
+Epoch [03/50]	Batch [01/03]	Train Loss 0.010
+Epoch [03/50]	Batch [02/03]	Train Loss 0.010
+Epoch [03/50]	Batch [03/03]	Train Loss 0.010
+Epoch [03/50]	Val Loss 0.015	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 3
+------------------------------------------------------------------------
+Epoch [04/50]	Batch [01/03]	Train Loss 0.008
+Epoch [04/50]	Batch [02/03]	Train Loss 0.010
+Epoch [04/50]	Batch [03/03]	Train Loss 0.009
+Epoch [04/50]	Val Loss 0.013	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 4
+------------------------------------------------------------------------
+Epoch [05/50]	Batch [01/03]	Train Loss 0.007
+Epoch [05/50]	Batch [02/03]	Train Loss 0.011
+Epoch [05/50]	Batch [03/03]	Train Loss 0.011
+Epoch [05/50]	Val Loss 0.013	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 5
+------------------------------------------------------------------------
+Epoch [06/50]	Batch [01/03]	Train Loss 0.007
+Epoch [06/50]	Batch [02/03]	Train Loss 0.012
+Epoch [06/50]	Batch [03/03]	Train Loss 0.010
+Epoch [06/50]	Val Loss 0.013	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 6
+------------------------------------------------------------------------
+Epoch [07/50]	Batch [01/03]	Train Loss 0.012
+Epoch [07/50]	Batch [02/03]	Train Loss 0.006
+Epoch [07/50]	Batch [03/03]	Train Loss 0.008
+Epoch [07/50]	Val Loss 0.013	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 7
+------------------------------------------------------------------------
+Epoch [08/50]	Batch [01/03]	Train Loss 0.009
+Epoch [08/50]	Batch [02/03]	Train Loss 0.007
+Epoch [08/50]	Batch [03/03]	Train Loss 0.009
+Epoch [08/50]	Val Loss 0.014	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 8
+------------------------------------------------------------------------
+Epoch [09/50]	Batch [01/03]	Train Loss 0.011
+Epoch [09/50]	Batch [02/03]	Train Loss 0.007
+Epoch [09/50]	Batch [03/03]	Train Loss 0.007
+Epoch [09/50]	Val Loss 0.014	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 9
+------------------------------------------------------------------------
+Epoch [10/50]	Batch [01/03]	Train Loss 0.008
+Epoch [10/50]	Batch [02/03]	Train Loss 0.008
+Epoch [10/50]	Batch [03/03]	Train Loss 0.008
+Epoch [10/50]	Val Loss 0.014	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 10
+------------------------------------------------------------------------
+Epoch [11/50]	Batch [01/03]	Train Loss 0.009
+Epoch [11/50]	Batch [02/03]	Train Loss 0.006
+Epoch [11/50]	Batch [03/03]	Train Loss 0.008
+Epoch [11/50]	Val Loss 0.013	Acc 80.73 [100.0, 0.0, 0.0, 0.0]
+Save the epoch 11
+------------------------------------------------------------------------
+Epoch [12/50]	Batch [01/03]	Train Loss 0.008
+Epoch [12/50]	Batch [02/03]	Train Loss 0.007
+Epoch [12/50]	Batch [03/03]	Train Loss 0.007
+Epoch [12/50]	Val Loss 0.013	Acc 81.65 [100.0, 0.0, 0.0, 20.0]
+Save the epoch 12
+------------------------------------------------------------------------
+Epoch [13/50]	Batch [01/03]	Train Loss 0.007
+Epoch [13/50]	Batch [02/03]	Train Loss 0.006
+Epoch [13/50]	Batch [03/03]	Train Loss 0.011
+Epoch [13/50]	Val Loss 0.012	Acc 81.65 [100.0, 0.0, 0.0, 20.0]
+Save the epoch 13
+------------------------------------------------------------------------
+Epoch [14/50]	Batch [01/03]	Train Loss 0.005
+Epoch [14/50]	Batch [02/03]	Train Loss 0.008
+Epoch [14/50]	Batch [03/03]	Train Loss 0.007
+Epoch [14/50]	Val Loss 0.012	Acc 81.65 [100.0, 0.0, 0.0, 20.0]
+Save the epoch 14
+------------------------------------------------------------------------
+Epoch [15/50]	Batch [01/03]	Train Loss 0.007
+Epoch [15/50]	Batch [02/03]	Train Loss 0.006
+Epoch [15/50]	Batch [03/03]	Train Loss 0.007
+Epoch [15/50]	Val Loss 0.011	Acc 82.57 [100.0, 11.11, 0.0, 20.0]
+Save the epoch 15
+------------------------------------------------------------------------
+Epoch [16/50]	Batch [01/03]	Train Loss 0.008
+Epoch [16/50]	Batch [02/03]	Train Loss 0.005
+Epoch [16/50]	Batch [03/03]	Train Loss 0.008
+Epoch [16/50]	Val Loss 0.011	Acc 84.40 [100.0, 11.11, 0.0, 60.0]
+Save the epoch 16
+------------------------------------------------------------------------
+Epoch [17/50]	Batch [01/03]	Train Loss 0.006
+Epoch [17/50]	Batch [02/03]	Train Loss 0.007
+Epoch [17/50]	Batch [03/03]	Train Loss 0.007
+Epoch [17/50]	Val Loss 0.010	Acc 84.40 [100.0, 11.11, 0.0, 60.0]
+Save the epoch 17
+------------------------------------------------------------------------
+Epoch [18/50]	Batch [01/03]	Train Loss 0.007
+Epoch [18/50]	Batch [02/03]	Train Loss 0.005
+Epoch [18/50]	Batch [03/03]	Train Loss 0.006
+Epoch [18/50]	Val Loss 0.010	Acc 84.40 [100.0, 11.11, 0.0, 60.0]
+Save the epoch 18
+------------------------------------------------------------------------
+Epoch [19/50]	Batch [01/03]	Train Loss 0.006
+Epoch [19/50]	Batch [02/03]	Train Loss 0.006
+Epoch [19/50]	Batch [03/03]	Train Loss 0.005
+Epoch [19/50]	Val Loss 0.010	Acc 84.40 [100.0, 11.11, 0.0, 60.0]
+Save the epoch 19
+------------------------------------------------------------------------
+Epoch [20/50]	Batch [01/03]	Train Loss 0.005
+Epoch [20/50]	Batch [02/03]	Train Loss 0.007
+Epoch [20/50]	Batch [03/03]	Train Loss 0.006
+Epoch [20/50]	Val Loss 0.009	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 20
+------------------------------------------------------------------------
+Epoch [21/50]	Batch [01/03]	Train Loss 0.005
+Epoch [21/50]	Batch [02/03]	Train Loss 0.006
+Epoch [21/50]	Batch [03/03]	Train Loss 0.005
+Epoch [21/50]	Val Loss 0.009	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 21
+------------------------------------------------------------------------
+Epoch [22/50]	Batch [01/03]	Train Loss 0.006
+Epoch [22/50]	Batch [02/03]	Train Loss 0.006
+Epoch [22/50]	Batch [03/03]	Train Loss 0.005
+Epoch [22/50]	Val Loss 0.009	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 22
+------------------------------------------------------------------------
+Epoch [23/50]	Batch [01/03]	Train Loss 0.005
+Epoch [23/50]	Batch [02/03]	Train Loss 0.006
+Epoch [23/50]	Batch [03/03]	Train Loss 0.004
+Epoch [23/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 23
+------------------------------------------------------------------------
+Epoch [24/50]	Batch [01/03]	Train Loss 0.003
+Epoch [24/50]	Batch [02/03]	Train Loss 0.004
+Epoch [24/50]	Batch [03/03]	Train Loss 0.006
+Epoch [24/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 24
+------------------------------------------------------------------------
+Epoch [25/50]	Batch [01/03]	Train Loss 0.004
+Epoch [25/50]	Batch [02/03]	Train Loss 0.005
+Epoch [25/50]	Batch [03/03]	Train Loss 0.004
+Epoch [25/50]	Val Loss 0.009	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+Save the epoch 25
+------------------------------------------------------------------------
+Epoch [26/50]	Batch [01/03]	Train Loss 0.005
+Epoch [26/50]	Batch [02/03]	Train Loss 0.004
+Epoch [26/50]	Batch [03/03]	Train Loss 0.004
+Epoch [26/50]	Val Loss 0.009	Acc 84.40 [98.86, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [27/50]	Batch [01/03]	Train Loss 0.003
+Epoch [27/50]	Batch [02/03]	Train Loss 0.004
+Epoch [27/50]	Batch [03/03]	Train Loss 0.003
+Epoch [27/50]	Val Loss 0.009	Acc 87.16 [98.86, 44.44, 14.29, 60.0]
+Save the epoch 27
+------------------------------------------------------------------------
+Epoch [28/50]	Batch [01/03]	Train Loss 0.003
+Epoch [28/50]	Batch [02/03]	Train Loss 0.004
+Epoch [28/50]	Batch [03/03]	Train Loss 0.003
+Epoch [28/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [29/50]	Batch [01/03]	Train Loss 0.002
+Epoch [29/50]	Batch [02/03]	Train Loss 0.003
+Epoch [29/50]	Batch [03/03]	Train Loss 0.004
+Epoch [29/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [30/50]	Batch [01/03]	Train Loss 0.003
+Epoch [30/50]	Batch [02/03]	Train Loss 0.003
+Epoch [30/50]	Batch [03/03]	Train Loss 0.003
+Epoch [30/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [31/50]	Batch [01/03]	Train Loss 0.002
+Epoch [31/50]	Batch [02/03]	Train Loss 0.002
+Epoch [31/50]	Batch [03/03]	Train Loss 0.004
+Epoch [31/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [32/50]	Batch [01/03]	Train Loss 0.003
+Epoch [32/50]	Batch [02/03]	Train Loss 0.003
+Epoch [32/50]	Batch [03/03]	Train Loss 0.002
+Epoch [32/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [33/50]	Batch [01/03]	Train Loss 0.002
+Epoch [33/50]	Batch [02/03]	Train Loss 0.002
+Epoch [33/50]	Batch [03/03]	Train Loss 0.002
+Epoch [33/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [34/50]	Batch [01/03]	Train Loss 0.001
+Epoch [34/50]	Batch [02/03]	Train Loss 0.002
+Epoch [34/50]	Batch [03/03]	Train Loss 0.001
+Epoch [34/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [35/50]	Batch [01/03]	Train Loss 0.002
+Epoch [35/50]	Batch [02/03]	Train Loss 0.002
+Epoch [35/50]	Batch [03/03]	Train Loss 0.001
+Epoch [35/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [36/50]	Batch [01/03]	Train Loss 0.001
+Epoch [36/50]	Batch [02/03]	Train Loss 0.002
+Epoch [36/50]	Batch [03/03]	Train Loss 0.002
+Epoch [36/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [37/50]	Batch [01/03]	Train Loss 0.002
+Epoch [37/50]	Batch [02/03]	Train Loss 0.001
+Epoch [37/50]	Batch [03/03]	Train Loss 0.001
+Epoch [37/50]	Val Loss 0.009	Acc 87.16 [98.86, 44.44, 14.29, 60.0]
+Save the epoch 37
+------------------------------------------------------------------------
+Epoch [38/50]	Batch [01/03]	Train Loss 0.001
+Epoch [38/50]	Batch [02/03]	Train Loss 0.001
+Epoch [38/50]	Batch [03/03]	Train Loss 0.001
+Epoch [38/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [39/50]	Batch [01/03]	Train Loss 0.001
+Epoch [39/50]	Batch [02/03]	Train Loss 0.001
+Epoch [39/50]	Batch [03/03]	Train Loss 0.001
+Epoch [39/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [40/50]	Batch [01/03]	Train Loss 0.001
+Epoch [40/50]	Batch [02/03]	Train Loss 0.001
+Epoch [40/50]	Batch [03/03]	Train Loss 0.001
+Epoch [40/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [41/50]	Batch [01/03]	Train Loss 0.001
+Epoch [41/50]	Batch [02/03]	Train Loss 0.001
+Epoch [41/50]	Batch [03/03]	Train Loss 0.001
+Epoch [41/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [42/50]	Batch [01/03]	Train Loss 0.001
+Epoch [42/50]	Batch [02/03]	Train Loss 0.001
+Epoch [42/50]	Batch [03/03]	Train Loss 0.001
+Epoch [42/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [43/50]	Batch [01/03]	Train Loss 0.001
+Epoch [43/50]	Batch [02/03]	Train Loss 0.001
+Epoch [43/50]	Batch [03/03]	Train Loss 0.001
+Epoch [43/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [44/50]	Batch [01/03]	Train Loss 0.001
+Epoch [44/50]	Batch [02/03]	Train Loss 0.001
+Epoch [44/50]	Batch [03/03]	Train Loss 0.001
+Epoch [44/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [45/50]	Batch [01/03]	Train Loss 0.001
+Epoch [45/50]	Batch [02/03]	Train Loss 0.001
+Epoch [45/50]	Batch [03/03]	Train Loss 0.001
+Epoch [45/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [46/50]	Batch [01/03]	Train Loss 0.001
+Epoch [46/50]	Batch [02/03]	Train Loss 0.001
+Epoch [46/50]	Batch [03/03]	Train Loss 0.001
+Epoch [46/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [47/50]	Batch [01/03]	Train Loss 0.001
+Epoch [47/50]	Batch [02/03]	Train Loss 0.001
+Epoch [47/50]	Batch [03/03]	Train Loss 0.001
+Epoch [47/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [48/50]	Batch [01/03]	Train Loss 0.001
+Epoch [48/50]	Batch [02/03]	Train Loss 0.001
+Epoch [48/50]	Batch [03/03]	Train Loss 0.001
+Epoch [48/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [49/50]	Batch [01/03]	Train Loss 0.001
+Epoch [49/50]	Batch [02/03]	Train Loss 0.001
+Epoch [49/50]	Batch [03/03]	Train Loss 0.001
+Epoch [49/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+Epoch [50/50]	Batch [01/03]	Train Loss 0.001
+Epoch [50/50]	Batch [02/03]	Train Loss 0.001
+Epoch [50/50]	Batch [03/03]	Train Loss 0.001
+Epoch [50/50]	Val Loss 0.008	Acc 85.32 [100.0, 11.11, 14.29, 60.0]
+------------------------------------------------------------------------
+<< Finished.
+
