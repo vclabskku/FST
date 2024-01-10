@@ -27,5 +27,5 @@ zsh scripts/train.sh MODEL_NAME EXP_NAME GPU_NUM
 # binary
 zsh scripts/train_binary.sh MODEL_NAME EXP_NAME GPU_NUM
 ```
-The log file will be saved `logs` as `EXP_NAME.log`.  
+The log file will be saved `logs/EXP_NAME` as `EXP_NAME.log`.  
 The best model will be saved in `ckpts/EXP_NAME` as `EXP_NAME_bset.pth`.
